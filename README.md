@@ -7,56 +7,56 @@ This dashboard has 3 main objectives:
 
 - Finding companies purchasing and retiring VCUs (carbon credits from Verra);
 - Finding which projects are more popular;
-- Discover similar projects, based on their availability.
+- Discover similar projects based on their availability.
 
 
-There are institutions developing environment friendly projects, that avoid CO2 emissions or sequester CO2 from the atmosphere. These projects are validated by certifiers, such as Verra, so they can issue carbon credits and generate income through the selling of those credits.
+Some institutions are developing environment-friendly projects that avoid CO2 emissions or sequester CO2 from the atmosphere. These projects are validated by certifiers, such as Verra, so they can issue carbon credits and generate income by selling those credits.
 
 Companies purchase carbon credits to offset their CO2 emissions. For many players in the environmental commodities market, is important to know who is active on the market, to try to make business with them, similar companies or just for market research purposes.
 
-Also, it's important to keep track of which type of carbon credits companies are buying. There are important characteristics to determine if a carbon credit is better or more suited to a company's objectives than others.
+Also, it's essential to keep track of which type of carbon credits companies buy. Important characteristics determine whether a carbon credit is better or more suited to a company's objectives than others.
 
-Important to say that we are monitoring VCUs, carbon credits issued by Verra, certifier with the largest volume. There are relevant competitors like CDM, Gold Standard, CERCARBONO, and others, which we won't cover here.
+We are monitoring VCUs, carbon credits issued by Verra, the certifier with the most significant volume. Relevant competitors include CDM, Gold Standard, CERCARBONO, and others, which we won't cover here.
 
 <br>
 
 ### Important Concepts
 
-Before explaining how to better use the dashboard, i'll explain some key words and concepts about CO2 offset.
+Before explaining how to use the dashboard better, I'll explain some keywords and concepts about CO2 offset.
 
-First of all, 1 carbon credit is equivalent to 1 ton of CO2. So if a company is purchasing and retiring 100,000 carbon credits, that means they are offsetting 100,000 tons of CO2 from what they emmited.
+First of all, 1 carbon credit is equivalent to 1 ton of CO2. So, if a company purchases and retires 100,000 carbon credits, that means they are offsetting 100,000 tons of CO2 from their emissions.
 
-With that information you may ask: can a company buy any carbon credit to offset their emissions?
+With that information, you may ask: can a company buy any carbon credit to offset its emissions?
 
 It depends.
 
-There are countries with well defined regulations that determine characteristics of the projects for companies to offset and obly companies to offset a part of their emissions. Some countries don't have that type of regulation, so companies can offset their emissions with whatever credit they want.
+There are countries with well-defined regulations that determine the characteristics of the projects for companies to offset and oblige companies to offset a part of their emissions. Some countries don't have that type of regulation, so companies can offset their emissions with whatever credit they want.
 
-This is one of the most important usages of this dashboard. Understand behaviour of companies within a sector, region and etc.
+This is one of the most important uses of this dashboard: understanding the behaviour of companies within a sector, region, etc.
 
 Some of the main characteristics to understand if a project may be suitable for a company's offset are:
 
-Vintage: Year of generation of the credit. If we say that a credit is V15, it means that credit represents CO2 reductions or sequester from 2015. If is V20, from 2020. A V21 credit can be issued in 2023, but since the reduction happened in 2021, it's a V21 credit.
+Vintage: The year of the credit's generation. If we say that a credit is V15, it means that it represents CO2 reductions or sequestration from 2015. If it is V20, it represents sequestration from 2020. A V21 credit can be issued in 2023, but since the reduction happened in 2021, it's a V21 credit.
 
-Project Type: A project that protects a florest is under the AFOLU (Agriculture Forestry and Other Land Use) category. A project that reduces CO2 emissions by generating energy via renewable sources are under the Energy Industries category.
+Project Type: A project that protects a forest is under the AFOLU (Agriculture Forestry and Other Land Use) category. A project that reduces CO2 emissions by generating energy via renewable sources is under the Energy Industries category.
 
-Additional Certifications: Some projects have co-benefits linked with them, such as improving life quality of surrounding communities or avoiding the extinction of species. These co-benefits can be checked through certifications like CCB, Social Carbon, CORSIA and others.
+Additional Certifications: Some projects have co-benefits linked to them, such as improving the quality of life in surrounding communities or avoiding species' extinction. These co-benefits can be checked through certifications like CCB, Social Carbon, CORSIA, and others.
 
-Proponent: Company responsible for the project's development.
+Proponent: The company responsible for the project's development.
 
-These are some of the main characteristics that helps companies guiding their offseting decisions.
+These are some of the main characteristics that help companies guide their offsetting decisions.
 
 <br>
 
 ### Usage
 
-While working at a environmental commodities company, I developed a similar dashboard with a primary goal of finding companies who were retiring carbon credits so we could try to make business with them.
+While working at an environmental commodities company, I developed a similar dashboard to find companies who were retiring carbon credits so we could try to do business with them.
 
-In the first page of the dashboard, we can use date filters to discover which companies are offseting this week or this month for instance.
+On the first page of the dashboard, we can use date filters to discover which companies are offsetting this week or this month, for instance.
 
-Besides the company table, we also have views for Project IDs and Vintages.
+Besides the company table, we have views for Project IDs and Vintages.
 
-With those, we can check if there is a specific project under the spotlight in the last couple of days or if there is some change in the behaviour of the companies regarding how old the credits are. If relevant companies are using 10yo credits to offset their emissions, they could look more attractive for similar companies.
+With those, we can check if a specific project has been under the spotlight in the last couple of days or if there has been some change in the behavior of the companies regarding how old the credits are. If relevant companies use 10-year credits to offset their emissions, they could look more attractive to similar companies.
 
 <br>
 
@@ -65,7 +65,7 @@ With those, we can check if there is a specific project under the spotlight in t
 <br>
 
 
-If we want further information regarding those retirements, we can use the drill through button to see filtered info on the second page, 'Retirements Details':
+If we want further information regarding those retirements, we can use the drill-through button to see filtered info on the second page, 'Retirements Details':
 
 <br>
 
@@ -73,43 +73,62 @@ If we want further information regarding those retirements, we can use the drill
 
 <br>
 
-In this example, we filtered the 2024 retirements and selected the top retirer company for the period, Shell. Then we used the drill through to go to the retirement details page.
+In this example, we filtered the 2024 retirements and selected the top retirer company for the period, Shell. Then, we used the drill-through to go to the retirement details page.
 
-In the retirement details page, we can see that Shell is offsetting their emissions with credits from different vintages, ranging from 2015 to 2021, with the majority of them coming from 2016-20.
+On the retirement details page, we can see that Shell is offsetting its emissions with credits from different vintages, ranging from 2015 to 2021, with the majority coming from 2016-20.
 
-We can also see that more than half of their retirements on the period came from Asian projects and +80% from AFOLU projects.
+We can also see that over half of their retirements during the period came from Asian projects and +80% from AFOLU projects.
 
-With this type of information, we could try to persuade competitors to buy similar credits, contact the proponents of those projects establish some type of partnership to commercialize the credits, or even contact existing partners to see if there is any opportunity on the table to make deals with those exact or similar credits.
+With this information, we could try to persuade competitors to buy similar credits, contact the proponents of those projects to establish some type of partnership to commercialize the credits, or even contact existing partners to see if there is any opportunity to make deals with those exact or similar credits.
 
-Next, we have the available page. So far we have checked past retirements to check what kind of projects are on demand by companies. With the characteristics of those projects in hand, we can use the available page to find similar credits.
-
-<br>
-
-![available_ss](https://github.com/victorbontempi95/carbon_credits_retirements_verra/assets/155546577/79eb7332-3f41-48d4-8c6d-908fda7af3b3)
+Next, we have the available page. So far, we have checked past retirements to see what kind of projects companies are in demand for. With the characteristics of those projects in hand, we can use the available page to find similar credits.
 
 <br>
 
-Let's say we have a client that is looking for V20 credits of AFOLU projects. We can use some filters to understand which credits are available with those characteristics and who are their proponents. With that information, we can contact the proponents and check the real availability of those credits, which can ultimately lead to actual deal making.
+![available_ss](https://github.com/victorbontempi95/carbon_credits_retirements_verra/assets/155546577/d044efdb-25c1-4858-b778-a3231c272e40)
 
 <br>
 
-![available_v20_afolu](https://github.com/victorbontempi95/carbon_credits_retirements_verra/assets/155546577/2d347a2c-f7f7-4b3f-82cf-c5fa16b09814)
+Let's say a client is looking for V20 credits for AFOLU projects. We can use some filters to understand which credits are available with those characteristics and who their proponents are. With that information, we can contact the proponents and check the real availability of those credits, which can ultimately lead to actual deal-making.
 
 <br>
 
-Sometimes companies have restrictions based on which countries they have activities on. For that, the map can be really useful.
+![available_v20_afolu](https://github.com/victorbontempi95/carbon_credits_retirements_verra/assets/155546577/0908e003-dfac-478d-8f99-72a65d24a647)
+
+<br>
+
+Sometimes, companies have restrictions based on which countries they have activities in. For that, the map can be handy.
 
 <br>
 
 ### Data Source and License:
 
-All information is public and available on Verra's website.
+All information is publicly available on [Verra's](https://registry.verra.org/app/search/VCS) website.
 
 More details of the methodology for developing carbon credits projects also can be found on their website.
 
-To extract the files for available credits information and past retirements, you can check the VCUs tab and filter by 'Status' and download the excel file.
+To extract the files for available credit information and past retirements, check the VCUs tab filter by 'Status' and download the Excel file.
 
-To generate the registered projects, search the 'Registered' tab with no filters and download the excel file.
+To generate the registered projects, search the 'Registered' tab without filters and download the Excel file.
 
+<br>
+
+# Data Treatment
+
+When downloading the file from Verra's website, you get an Excel file. We could upload this file directly on Power BI and transform data with Power Query.
+
+However, to practice the ETL process, I decided to upload the database to SQL and then connect MySQL to Power BI. It also became more accessible to do quick consultations and investigations on the data via SQL.
+
+To upload the file to SQL, I first tried to switch from XLSX to CSV in Google Sheets, but there was a problem with the type of characters in 'Retirement Beneficiary,' the column with the company who retired the credits. That is probably because the retirement register can be made by people worldwide. I tried fixing this problem by switching the encoding to UTF-8 when saving the file as CSV, but it still returned an error when loading the data to SQL.
+
+I fixed the problem with Python using the code below, replacing all non-ASCII characters with ' '.
+
+![image](https://github.com/victorbontempi95/carbon_credits_retirements_verra/assets/155546577/47e338e1-c5b5-4a6a-a11e-fbab3778eb1f)
+
+I seized the opportunity to do some primary treatment with Python, like dropping unnecessary columns.
+
+After that, I could load the data to SQL without a problem.
+
+I'm making all files available here.
 
 
